@@ -130,7 +130,7 @@ a {
 #content-body {
     margin-top: 25px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: top;
     width: 100%;
     border: 1px double #C1DFF0;
