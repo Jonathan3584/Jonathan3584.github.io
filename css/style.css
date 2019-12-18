@@ -223,7 +223,9 @@ a {
     box-shadow: 2px 3px #0A2239;
 }
 
-.tile-body {}
+.tile-body:hover {
+    transform: scale(1.03);
+}
 
 .tile-body-img {
     max-width: 100%;
