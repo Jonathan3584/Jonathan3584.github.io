@@ -32,8 +32,9 @@ a {
 
 #header {
     display: flex;
-    flex-direction: column;
-    height: 250px;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
     width: 100%;
     margin-top: 0;
     background-color: #3F88C5;
@@ -44,6 +45,8 @@ a {
 #logo {
     font-family: 'Cormorant SC', serif;
     margin: 15px auto 0 auto;
+    width: 30%;
+    margin-left: 5%;
 }
 
 #wallace {
@@ -75,15 +78,22 @@ a {
     line-height: 0px;
 }
 
+#nav-spacer {
+    height: 80%;
+}
+
 #main-nav {
     font-family: 'Cormorant SC', serif;
     margin-top: 0;
-    height: 40px;
+    height: 100%;
+    width: 65%;
     color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 #wm-links {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -244,11 +254,24 @@ a {
 .attorney-body-text {}
 
 @media only screen and (max-device-width: 640px) {
+    #header {
+        flex-direction: column;
+        height: 250px;
+    }
+
+    #logo {
+        font-family: 'Cormorant SC', serif;
+        margin: 15px auto 0 auto;
+        width: 100%;
+        margin-left: 5%;
+    }
+
     #main-nav {
         font-family: 'Cormorant SC', serif;
         margin-top: 0;
         height: 40px;
         color: black;
+        width: 100%;
     }
 
     #wm-links {
