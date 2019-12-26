@@ -34,7 +34,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 200px;
+    height: 220px;
     width: 100%;
     margin-top: 0;
     background-color: #3F88C5;
@@ -43,10 +43,13 @@ a {
 }
 
 #logo {
-    font-family: 'Cormorant SC', serif;
     margin: 15px auto 0 auto;
     width: 30%;
     margin-left: 5%;
+}
+
+#logo-img {
+    width: 100%;
 }
 
 #wallace {
@@ -263,7 +266,7 @@ a {
         font-family: 'Cormorant SC', serif;
         margin: 15px auto 0 auto;
         width: 100%;
-        margin-left: 5%;
+        margin-left: 0;
     }
 
     #main-nav {
@@ -272,6 +275,10 @@ a {
         height: 40px;
         color: black;
         width: 100%;
+    }
+
+    #nav-spacer {
+        height: 0;
     }
 
     #wm-links {
