@@ -107,6 +107,12 @@ a {
     text-align: center;
 }
 
+.wm-nav:hover {
+    color: white;
+    transform: scale(1.03);
+    font-size: 1.56rem;
+}
+
 #wm-nav-home {}
 
 #wm-nav-experience {}
@@ -269,14 +275,16 @@ a {
 @media only screen and (max-device-width: 640px) {
     #header {
         flex-direction: column;
-        height: 250px;
+        justify-content: flex-start;
+        height: 275px;
     }
 
     #logo {
         font-family: 'Cormorant SC', serif;
-        margin: 15px auto 0 auto;
+        margin: 0 auto;
         width: 100%;
         margin-left: 0;
+        padding-bottom: 0;
     }
 
     #main-nav {
