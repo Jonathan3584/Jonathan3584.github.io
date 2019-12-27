@@ -183,6 +183,16 @@ a {
     width: 100%;
 }
 
+.attorney-img {
+    float: left;
+    width: 50%;
+    margin-right: 2%;
+}
+
+.attorney-boy-text {
+    float: right;
+}
+
 #footer {
     font-family: 'Cormorant SC', serif;
     flex-shrink: 0;
@@ -337,6 +347,12 @@ a {
         border: none;
         padding: none;
         box-shadow: none;
+    }
+
+    .attorney-img {
+        float: none;
+        width: 100%;
+        margin-right: 0;
     }
 
     #cb-right {
