@@ -207,6 +207,10 @@ a {
     height: 75px;
 }
 
+.exp-link:hover {
+    color: #3F88C5;
+}
+
 #footer-links {
     height: 50px;
     display: flex;
