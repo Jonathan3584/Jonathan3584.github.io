@@ -30,11 +30,11 @@ a {
     min-height: 100vh;
 }
 
-#header {
+.header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 220px;
+    height: 300px;
     width: 100%;
     margin-top: 0;
     background-color: #3F88C5;
@@ -42,14 +42,65 @@ a {
     color: white;
 }
 
-#logo {
-    margin: 15px auto 0 auto;
-    width: 30%;
-    margin-left: 5%;
+#home-header {
+    background-image: url('../assets/images/blueridge.png');
+    background-size: cover;
 }
 
-#logo-img {
-    width: 100%;
+#privacy-header {
+    background-image: url('../assets/images/capitol.png');
+    background-size: cover;
+}
+
+#experience-header {
+    background-image: url('../assets/images/raleigh.png');
+    background-size: cover;
+}
+
+#attorneys-header {
+    background-image: url('../assets/images/capitol1.png');
+    background-size: cover;
+}
+
+#logo {
+    margin: 60px auto 0 auto;
+    width: 30%;
+    margin-left: 5%;
+    font-family: 'Cormorant SC', serif;
+    color: #ffffff;
+}
+
+.attorney-logo {
+    color: #ffffff !important;
+}
+
+#wallace {
+    margin-bottom: 0;
+}
+
+#nordan {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.logo-name {
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+#llp {
+    margin-top: 29px;
+    margin-left: 5px;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+#aal {
+    margin-top: 0;
+    font-size: 35px;
+    font-weight: lighter;
+    line-height: 0px;
 }
 
 #wallace {
@@ -90,7 +141,7 @@ a {
     margin-top: 0;
     height: 100%;
     width: 65%;
-    color: black;
+    color: white;
     display: flex;
     flex-direction: column;
 }
@@ -108,7 +159,7 @@ a {
 }
 
 .wm-nav:hover {
-    color: white;
+    color: black;
     transform: scale(1.03);
     font-size: 1.56rem;
 }
@@ -199,6 +250,15 @@ a {
     float: right;
 }
 
+.exp-subheader {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.exp-paragraph {
+    margin-top:5px;
+}
+
 #footer {
     font-family: 'Cormorant SC', serif;
     flex-shrink: 0;
@@ -277,25 +337,46 @@ a {
 .attorney-body-text {}
 
 @media only screen and (max-device-width: 640px) {
-    #header {
+    .header {
         flex-direction: column;
         justify-content: flex-start;
         height: 275px;
+    }
+
+    #home-header {
+        background-image: none;
+        background-size: cover;
+    }
+
+    #privacy-header {
+        background-image: none;
+        background-size: cover;
+    }
+
+    #experience-header {
+        background-image: none;
+        background-size: cover;
+    }
+
+    #attorneys-header {
+        background-image: none;
+        background-size: cover;
     }
 
     #logo {
         font-family: 'Cormorant SC', serif;
         margin: 0 auto;
         width: 100%;
-        margin-left: 0;
-        padding-bottom: 0;
+        margin-left: 10px;
+        padding-bottom: 15px;
+        color: white;
     }
 
     #main-nav {
         font-family: 'Cormorant SC', serif;
         margin-top: 0;
         height: 40px;
-        color: black;
+        color: white;
         width: 100%;
     }
 
