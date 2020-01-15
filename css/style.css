@@ -48,7 +48,7 @@ a {
 }
 
 #privacy-header {
-    background-image: url('../assets/images/capitol1.png');
+    background-image: url('../assets/images/capitol.png');
     background-size: cover;
 }
 
@@ -65,6 +65,7 @@ a {
 #logo {
     margin: 60px auto 0 auto;
     width: 30%;
+    min-width: 395px;
     margin-left: 5%;
     font-family: 'Cormorant SC', serif;
     color: #ffffff;
@@ -343,23 +344,8 @@ a {
         height: 275px;
     }
 
-    #home-header {
-        background-image: none;
-        background-size: cover;
-    }
-
-    #privacy-header {
-        background-image: none;
-        background-size: cover;
-    }
-
     #experience-header {
-        background-image: none;
-        background-size: cover;
-    }
-
-    #attorneys-header {
-        background-image: none;
+        background-image: url('../assets/images/blueridge.png');
         background-size: cover;
     }
 
@@ -367,9 +353,31 @@ a {
         font-family: 'Cormorant SC', serif;
         margin: 0 auto;
         width: 100%;
-        margin-left: 10px;
+        min-width: 340px;
         padding-bottom: 15px;
         color: white;
+    }
+
+    #wallace {
+        display: flex;
+        justify-content: center;
+    }
+
+    #nordan {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo-name {
+        font-size: 53px;
+        padding: 0 auto;
+    }
+
+    #aal {
+        display: flex;
+        justify-content: center;
+        /*margin:0 auto;*/
+        padding: 0 auto;
     }
 
     #main-nav {
@@ -378,6 +386,12 @@ a {
         height: 40px;
         color: white;
         width: 100%;
+    }
+
+    #llp {
+        visibility: hidden;
+        width: 0;
+        height: 0;
     }
 
     #nav-spacer {
