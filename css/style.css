@@ -268,8 +268,13 @@ a {
     height: 75px;
 }
 
-.exp-link:hover {
+.exp-link {
     color: #3F88C5;
+    text-decoration: underline;
+}
+
+.exp-link:hover {
+    color: #0A2239;
 }
 
 #footer-links {
